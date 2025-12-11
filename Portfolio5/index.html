@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jed O. Villaruz | Portfolio</title>
+  <meta name="description" content="Portfolio of Jed O. Villaruz - College student passionate about web development and programming. Explore my projects and skills." />
+  <meta name="author" content="Jed O. Villaruz" />
+  <meta name="keywords" content="Jed Villaruz, web developer, portfolio, programming, HTML, CSS, JavaScript, Python, Java" />
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Jed O. Villaruz | Portfolio" />
+  <meta property="og:description" content="College student passionate about web development and programming. Explore my projects and skills." />
+  <meta property="og:type" content="website" />
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Jed O. Villaruz | Portfolio" />
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-content">
+      <a href="#home" class="logo">Jed Villaruz</a>
+      
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Mobile Sidebar -->
+  <div class="sidebar">
+    <ul class="sidebar-links">
+      <li><a href="#home" class="sidebar-link">Home</a></li>
+      <li><a href="#about" class="sidebar-link">About</a></li>
+      <li><a href="#skills" class="sidebar-link">Skills</a></li>
+      <li><a href="#projects" class="sidebar-link">Projects</a></li>
+      <li><a href="#contact" class="sidebar-link">Contact</a></li>
+    </ul>
+  </div>
+  
+  <!-- Overlay -->
+  <div class="overlay"></div>
+  
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-background">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+    
+    <canvas id="particle-canvas"></canvas>
+    
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Available for opportunities
+      </div>
+      
+      <h1 class="hero-title">
+        <span class="line greeting">Hello, I'm</span>
+        <span class="line name">Jed O. Villaruz</span>
+      </h1>
+      
+      <p class="hero-description">
+        College student passionate about crafting beautiful web experiences. 
+        Specializing in modern web development with a focus on clean code and elegant design.
+      </p>
+      
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">
+          <i class="fas fa-rocket"></i>
+          View My Work
+        </a>
+        <a href="#contact" class="btn btn-secondary">
+          <i class="fas fa-envelope"></i>
+          Get In Touch
+        </a>
+      </div>
+    </div>
+    
+    <div class="scroll-indicator">
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+      <span>Scroll to explore</span>
+    </div>
+  </section>
+  
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="section-header">
+      <span class="section-badge">About Me</span>
+      <h2 class="section-title">Passionate Developer</h2>
+      <p class="section-description">Turning ideas into reality through code</p>
+    </div>
+    
+    <div class="about-container">
+      <div class="about-image-wrapper">
+        <div class="about-image-container">
+          <div class="about-image-placeholder">
+            <i class="fas fa-user"></i>
+          </div>
+        </div>
+        <div class="about-image-glow"></div>
+        
+        <div class="floating-badge floating-badge-1">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m18 16 4-4-4-4"/><path d="m6 8-4 4 4 4"/><path d="m14.5 4-5 16"/></svg>
+          <span>Clean Code</span>
+        </div>
+        
+        <div class="floating-badge floating-badge-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m16 10-4 4-4-4"/></svg>
+          <span>Always Learning</span>
+        </div>
+        
+        <div class="floating-badge floating-badge-3">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+          <span>Creative Design</span>
+        </div>
+      </div>
+      
+      <div class="about-content">
+        <h3>Building Digital Experiences</h3>
+        <p>
+          I'm a passionate college student with hands-on experience developing web and desktop projects. 
+          My journey in programming has equipped me with a diverse skill set that spans from front-end 
+          design to back-end development.
+        </p>
+        <p>
+          I believe in writing clean, maintainable code and creating intuitive user experiences. 
+          When I'm not coding, you'll find me exploring new technologies and contributing to open-source projects.
+        </p>
+        
+        <div class="about-highlights">
+          <div class="highlight-card">
+            <h4>5+</h4>
+            <p>Projects Completed</p>
+          </div>
+          <div class="highlight-card">
+            <h4>7+</h4>
+            <p>Technologies Mastered</p>
+          </div>
+          <div class="highlight-card">
+            <h4>2+</h4>
+            <p>Years Learning</p>
+          </div>
+          <div class="highlight-card">
+            <h4>∞</h4>
+            <p>Passion for Code</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="floating-shapes">
+      <div class="floating-shape shape-1"></div>
+      <div class="floating-shape shape-2"></div>
+      <div class="floating-shape shape-3"></div>
+    </div>
+    
+    <div class="section-header">
+      <span class="section-badge">My Skills</span>
+      <h2 class="section-title">Technical Expertise</h2>
+      <p class="section-description">Technologies I work with</p>
+    </div>
+    
+    <div class="skills-container">
+      <div class="skills-grid">
+        <div class="skill-card skill-html">
+          <div class="skill-header">
+            <div class="skill-icon">
+              <i class="fab fa-html5"></i>
+            </div>
+            <div class="skill-info">
+              <h3>HTML5</h3>
+              <span>Semantic markup</span>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="skill-progress-bar" data-progress="90%"></div>
+          </div>
+        </div>
+        
+        <div class="skill-card skill-css">
+          <div class="skill-header">
+            <div class="skill-icon">
+              <i class="fab fa-css3-alt"></i>
+            </div>
+            <div class="skill-info">
+              <h3>CSS3</h3>
+              <span>Modern styling</span>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="skill-progress-bar" data-progress="85%"></div>
+          </div>
+        </div>
+        
+        <div class="skill-card skill-js">
+          <div class="skill-header">
+            <div class="skill-icon">
+              <i class="fab fa-js"></i>
+            </div>
+            <div class="skill-info">
+              <h3>JavaScript</h3>
+              <span>Interactive experiences</span>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="skill-progress-bar" data-progress="80%"></div>
+          </div>
+        </div>
+        
+        <div class="skill-card skill-python">
+          <div class="skill-header">
+            <div class="skill-icon">
+              <i class="fab fa-python"></i>
+            </div>
+            <div class="skill-info">
+              <h3>Python</h3>
+              <span>Backend & scripting</span>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="skill-progress-bar" data-progress="75%"></div>
+          </div>
+        </div>
+        
+        <div class="skill-card skill-java">
+          <div class="skill-header">
+            <div class="skill-icon">
+              <i class="fab fa-java"></i>
+            </div>
+            <div class="skill-info">
+              <h3>Java</h3>
+              <span>OOP development</span>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="skill-progress-bar" data-progress="65%"></div>
+          </div>
+        </div>
+        
+        <div class="skill-card skill-sql">
+          <div class="skill-header">
+            <div class="skill-icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <div class="skill-info">
+              <h3>SQL</h3>
+              <span>Database management</span>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="skill-progress-bar" data-progress="70%"></div>
+          </div>
+        </div>
+        
+        <div class="skill-card skill-uiux">
+          <div class="skill-header">
+            <div class="skill-icon">
+              <i class="fas fa-pencil-ruler"></i>
+            </div>
+            <div class="skill-info">
+              <h3>UI/UX Design</h3>
+              <span>User-centered design</span>
+            </div>
+          </div>
+          <div class="skill-progress">
+            <div class="skill-progress-bar" data-progress="60%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="section-header">
+      <span class="section-badge">My Work</span>
+      <h2 class="section-title">Featured Projects</h2>
+      <p class="section-description">Some things I've built</p>
+    </div>
+    
+    <div class="projects-container">
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-glow"></div>
+          <div class="project-image">
+            <i class="fas fa-laptop-code project-icon"></i>
+          </div>
+          <div class="project-content">
+            <h3>Login System</h3>
+            <p>A secure authentication system with form validation, password hashing, and session management.</p>
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+            <a href="#" class="project-link">
+              View Project <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="project-card">
+          <div class="project-glow"></div>
+          <div class="project-image">
+            <i class="fas fa-database project-icon"></i>
+          </div>
+          <div class="project-content">
+            <h3>CRUD Application</h3>
+            <p>Full-featured data management system with create, read, update, and delete functionality.</p>
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">SQL</span>
+            </div>
+            <a href="#" class="project-link">
+              View Project <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="project-card">
+          <div class="project-glow"></div>
+          <div class="project-image">
+            <i class="fas fa-globe project-icon"></i>
+          </div>
+          <div class="project-content">
+            <h3>Responsive Website</h3>
+            <p>Modern, mobile-first website with smooth animations and optimized performance.</p>
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JS</span>
+            </div>
+            <a href="#" class="project-link">
+              View Project <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="section-header">
+      <span class="section-badge">Get In Touch</span>
+      <h2 class="section-title">Let's Connect</h2>
+      <p class="section-description">Have a project in mind? Let's talk!</p>
+    </div>
+    
+    <div class="contact-container">
+      <div class="contact-info">
+        <h3>Let's Create Something Amazing</h3>
+        <p>
+          I'm always excited to work on new projects and collaborate with passionate people. 
+          Whether you have a question or just want to say hi, feel free to reach out!
+        </p>
+        
+        <div class="contact-methods">
+          <div class="contact-method">
+            <div class="contact-method-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-method-text">
+              <h4>Email</h4>
+              <p>jed.villaruz@example.com</p>
+            </div>
+          </div>
+          
+          <div class="contact-method">
+            <div class="contact-method-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="contact-method-text">
+              <h4>Phone</h4>
+              <p>+63 912 345 6789</p>
+            </div>
+          </div>
+          
+          <div class="contact-method">
+            <div class="contact-method-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contact-method-text">
+              <h4>Location</h4>
+              <p>Philippines</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="social-links">
+          <a href="#" class="social-link" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="#" class="social-link" title="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#" class="social-link" title="Facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="social-link" title="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+      
+      <div class="contact-form-wrapper">
+        <h3>Send a Message</h3>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" required />
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="john@example.com" required />
+          </div>
+          
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" placeholder="Hello, I'd like to discuss..." required></textarea>
+          </div>
+          
+          <button type="submit" class="btn btn-primary submit-btn">
+            <i class="fas fa-paper-plane"></i>
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">Jed Villaruz</div>
+      <p>Made with <span class="footer-heart">♥</span> in Philippines</p>
+      <p>© 2024 Jed O. Villaruz. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <!-- Back to Top -->
+  <button class="back-to-top" title="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+  
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
